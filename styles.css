@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: parent;
+    width: parent;
+    justify-content: center;
+    align-items: center;
+}
+
+.piece{
+    height: 70px;
+}
+
+.square{
+    border: 2px solid rgba(95, 43, 0, 0.87);
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 70px;
+    min-width: 70px;
+}
+
+.brown{
+    background-color: rgb(221, 123, 62) ;
+}
+
+.white{
+    background-color: rgb(253, 234, 222) ;
+}
